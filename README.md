@@ -21,4 +21,4 @@ LINE CR STAR CR LINE CR STAR CR STAR CR
 This shall give you a nice F.
 
 ### Implementation of Names
-I made a structure which contains the name itself and what follows after until `;`. Then whenever the evaluator finds a letter, it checks against the currently stored names, and if a match is found, *it evaluates the name's buffer*. The fact this process is recursive highlights one of the powers of Forth. Currently however, replacement of pre-defined names is not implemented. Be careful making when names that are already pre-defined in the interpreter. Or not, that's your call.
+I made a structure which contains the name itself and what follows after until `;`. Then whenever the evaluator finds a letter, it checks against the currently stored names, and if a match is found, *it evaluates the name's buffer*. The fact this process is recursive highlights one of the powers of Forth. Currently however, replacement of pre-defined names is not implemented. Be careful making names that are already pre-defined in the interpreter. Or not, that's your call.
